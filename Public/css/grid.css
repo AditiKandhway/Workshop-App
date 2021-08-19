@@ -1,0 +1,9 @@
+.row{
+    display: flex;
+}
+.col-4{
+    flex-basis: 32%;
+}
+.col-8{
+    flex-basis:64%;
+}

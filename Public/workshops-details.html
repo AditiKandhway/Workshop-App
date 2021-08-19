@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/external/normalize.css">
     <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/form.css">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/pages/Workshop-list.css">
@@ -23,12 +25,32 @@
     </nav>
     <main>
     <div class="container my-lg">
-            <h1>Content of workshops</h1>
+            <h1 id="workshop-name">Content of workshops</h1>
             <hr />
-            <div class="workshops-list">
-
+            <div class="workshops-details">
+               <div class="row">
+                  <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At dolores quis velit porro cupiditate corporis neque, modi voluptatem. Maiores autem placeat optio odit ad minima vel nam amet natus. Numquam!
+                  </div>
+                  <div class="col-8">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatum minus officia hic molestiae eius facere enim possimus voluptatibus veniam pariatur esse, odit ut ducimus, tenetur doloribus quaerat dolorum id.
+                  </div>
+               </div>
             </div>
+            <h2>
+              Details of the new session
+            </h2>
+            <hr />
+            <form>
+              <div class="form-group">
+                  <label for="sequenceID">SequenceID</label>
+                  <input type="text" id="sequenceID" name="sequenceID" class="form-control"/>
+              </div>
+            </form>
      </div>
   </main>
+  <script src="js/pages/workshop-details.js">
+
+  </script>
 </body>
 </html>
